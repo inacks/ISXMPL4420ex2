@@ -174,7 +174,7 @@ if r[2] & 0x80:                                # bit 7 set: below 4 mA
 
   For the intermediate levels, use a resistor divider between 3V3 and GND: two 10 kΩ resistors for 1/2 of 3V3, or 30 kΩ and 10 kΩ for 1/4 and 3/4 of 3V3 (the 10 kΩ resistor goes to GND for 1/4 and to 3V3 for 3/4). This example keeps SPD at GND, the speed the Raspberry Pi uses by default.
 - **Temperature:** it's the temperature inside the module, which can be above the ambient temperature.
-- **Protection:** CIN has no protection. Never connect the loop power supply straight to CIN, and never reverse the loop: both destroy the module.
+- **Protection:** CIN has no protection. Never connect the loop power supply straight to CIN, and never reverse the loop: either may permanently damage the module.
 
 ---
 
