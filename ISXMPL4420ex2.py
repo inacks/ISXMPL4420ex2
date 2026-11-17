@@ -1,5 +1,6 @@
 # ISXMPL4420ex2 - Raspberry Pi I2C Current Loop Receiver Using the IS4420 Module
 # https://inacks.com/is4420
+# Datasheet: https://inacks.com/wp-content/uploads/IS4420-M1-Datasheet-I2C-4-20mA-Current-Loop-Receiver-ISDOC146.pdf
 #
 # Reads registers 0x0000 to 0x0006 of the IS4420-M1 twice a second and prints
 # the loop current, the percentage of the 4-20 mA span and the temperature
